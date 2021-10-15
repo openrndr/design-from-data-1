@@ -34,7 +34,7 @@ val orxFeatures = setOf(
 //  "orx-kotlin-parser",
 //  "orx-mesh-generators",
 //  "orx-midi",
-//  "orx-no-clear",
+  "orx-no-clear",
     "orx-noise",
 //  "orx-obj-loader",
     "orx-olive",
@@ -163,7 +163,7 @@ dependencies {
 
 //    implementation("org.jsoup:jsoup:1.12.2")
 //    implementation("com.google.code.gson:gson:2.8.6")
-
+    implementation("com.github.doyaaaaaken:kotlin-csv-jvm:1.1.0")
     runtimeOnly(openrndr("gl3"))
     runtimeOnly(openrndrNatives("gl3"))
     implementation(openrndr("openal"))
